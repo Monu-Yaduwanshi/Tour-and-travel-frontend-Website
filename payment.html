@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Star tour&travel Payment portal</title>
+    <style>
+        .footer {
+            background-color: #2c3e50; /* Dark background for the footer */
+            color: white; /* White text color for better contrast */
+            padding: 20px; /* Padding for spacing */
+            text-align: center; /* Center align text */
+        }
+
+        .footer-content {
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items */
+        }
+
+        .footer-logo {
+            margin-bottom: 10px; /* Space below the logo */
+        }
+
+        .footer-social {
+            margin-bottom: 10px; /* Space below the social links */
+        }
+
+        .social {
+            list-style: none; /* Remove default list styling */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Use flexbox for social links */
+            justify-content: center; /* Center align the items */
+        }
+
+        .social li {
+            margin: 0 10px; /* Space between social icons */
+        }
+
+        .social img {
+            transition: transform 0.3s; /* Add a transition for hover effect */
+        }
+
+        .social img:hover {
+            transform: scale(1.1); /* Slightly enlarge the icon on hover */
+        }
+
+        .footer-bottom {
+            font-size: 14px; /* Smaller font size for the copyright text */
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            /* background-image: linear-gradient(to right,#fccf31,#f55555); */
+            background-image: url(wallhaven-13kep3_2560x1080.png);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .menu {
+            list-style: none;
+            padding: 0;
+        }
+        .menu li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .contact-info {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+    <header>
+        <div class="logo">STAR TOUR AND TRAVEL Service</div>
+        <ul class="menu">
+            <li><a href="Minorproject.html">Home</a></li>
+                            <li><a href="about us.html">About Us</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="feedbacl.html">Feedback</a></li>
+                        
+                            <li><a href="complaint.html">complaint box</a></li>
+                            <li><a href="payment.html">Pay Online</a></li>
+                            <li><a href="bookingservice.html">My Bookings</a></li>
+                            
+                        
+                            <li><a href="T&C.html">Terms &amp; Conditions</a></li>
+                            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="login.html">Login</a></li>
+        </ul>
+        <div class="contact-info">
+            <p>Email: info@yourtraveladventures.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <div class="sectionheader paddefault">
+            <div class="headertop">
+                <div class="container">
+                    <p>Payment &amp; Cancellation Issues: <a href="tel:7828454800,5462458745">565646,4544454
+                    </a></p>
+                    <p class="routeinq">Route Inquiry: <a href="tel:6321587459, 5484621547">9664454454, 5421302587</a></p>
+                    <div class="agentlogin"><a href="agent.html" target="_blank"> </a></div>
+                </div>
+        </div>
+</head>
+<body>
+    <li><a href="Minorproject.html"></a></li>
+    <h1> Star tour&travel Payment portal</h1>
+    <form action="process_payment.php" method="post">
+        <!-- Passenger Information -->
+        <fieldset>
+            <legend>Passenger Information</legend>
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="phone">Gender:</label>
+
+            <input type="tel" id="" name="" required><br><br>
+            <label for="phone">Age:</label>
+
+            <input type="tel" id="" name="" required><br><br>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Payment Information</legend>
+            <tr>
+                <th><img src="IMG-20230924-WA0002.jpg" alt="" width="800" height="100"></th>
+            </tr><br>
+
+
+            <label for="payment_method">Payment Method:</label>
+            <select id="payment_method" name="payment_method" required>
+                <option value="credit_card">Credit Card</option>
+                <option value="debit_card">Debit Card</option>
+                <option value="upi">UPI</option>
+                <option value="net_banking">Net Banking</option>
+            </select><br><br>
+
+            
+            <div id="credit_card_details" class="payment_details">
+                <label for="card_number">Card Number:</label>
+                <input type="text" id="card_number" name="card_number" required><br><br>
+
+                <label for="expiration_date">Expiration Date:</label>
+                <input type="text" id="expiration_date" name="expiration_date" placeholder="MM/YYYY" required><br><br>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required><br><br>
+            </div>
+
+            
+            <div id="debit_card_details" class="payment_details">
+                <label for="card_number">Card Number:</label>
+                <input type="text" id="card_number" name="card_number" required><br><br>
+
+                <label for="expiration_date">Expiration Date:</label>
+                <input type="text" id="expiration_date" name="expiration_date" placeholder="MM/YYYY" required><br><br>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required><br><br>
+                <!-- Debit card fields go here -->
+            </div>
+
+            
+            <div id="upi_details" class="payment_details">
+                <label for="card_number">Enter your UPI ID:</label>
+                <input type="text" id="ID" name="cvv" required><br><br>
+
+                
+            </div>
+
+            
+            <div id="net_banking_details" class="payment_details">
+                <label for="Bank Name">Bank name:</label>
+                <input type="text" id="Branch" name="Branch" required><br><br>
+
+                <label for="expiration_date">User ID:</label>
+                <input type="text" id="expiration_date" name="User ID" placeholder="User ID" required><br><br>
+
+                <label for="cvv">Password:</label>
+                <input type="text" id="Password" name="Password" required><br><br>
+                
+            </div>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Ticket Information</legend>
+            <label for="ticket_type">Ticket Type:</label>
+            <select id="ticket_type" name="ticket_type" required>
+                <option value="first_class">AC</option>
+                <option value="first_class">NON AC</option>
+                <option value="economy">Economy</option>
+                <option value="business">Business</option>
+                <option value="first_class">Second class</option>
+                <option value="first_class">Luxurious</option>
+                <option value="first_class">Premium</option>
+            </select><br><br>
+
+            <label for="num_tickets">Number of Passenger:</label>
+            <input type="number" id="num_tickets" name="num_tickets" min="1" required><br><br>
+        </fieldset>
+
+        
+        <input class="c" type="submit" value="Submit Payment" style="color: rgb(8, 9, 9);">
+    </form>
+
+    <script>
+        
+        const paymentMethodSelect = document.getElementById('payment_method');
+        const paymentDetailsDivs = document.querySelectorAll('.payment_details');
+
+        paymentMethodSelect.addEventListener('change', (e) => {
+            const selectedMethod = e.target.value;
+            paymentDetailsDivs.forEach((div) => {
+                div.style.display = 'none';
+            });
+            document.getElementById(`${selectedMethod}_details`).style.display = 'block';
+        });
+    </script>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <!-- <img src="my logo.jpg" alt="Company Logo" width="150"> -->
+            </div>
+            <div class="footer-social">
+                <ul class="social">
+                    <li><a href="https://www.youtube.com" target="_blank"><img src="youtube.png" alt="YouTube" width="50"></a></li>
+                    <li><a href="https://www.whatsapp.com" target="_blank"><img src="whatsapp.png" alt="WhatsApp" width="50"></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><img src="twitter.png" alt="Twitter" width="50"></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><img src="facebook.png" alt="Facebook" width="50"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="social.png" alt="Instagram" width="50"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Star Tour and Travel Company. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

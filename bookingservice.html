@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .footer {
+            background-color: #2c3e50; /* Dark background for the footer */
+            color: white; /* White text color for better contrast */
+            padding: 20px; /* Padding for spacing */
+            text-align: center; /* Center align text */
+        }
+
+        .footer-content {
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items */
+        }
+
+        .footer-logo {
+            margin-bottom: 10px; /* Space below the logo */
+        }
+
+        .footer-social {
+            margin-bottom: 10px; /* Space below the social links */
+        }
+
+        .social {
+            list-style: none; /* Remove default list styling */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Use flexbox for social links */
+            justify-content: center; /* Center align the items */
+        }
+
+        .social li {
+            margin: 0 10px; /* Space between social icons */
+        }
+
+        .social img {
+            transition: transform 0.3s; /* Add a transition for hover effect */
+        }
+
+        .social img:hover {
+            transform: scale(1.1); /* Slightly enlarge the icon on hover */
+        }
+
+        .footer-bottom {
+            font-size: 14px; /* Smaller font size for the copyright text */
+        }
+      .footer {
+            background-color: #2c3e50; /* Dark background for the footer */
+            color: white; /* White text color for better contrast */
+            padding: 20px; /* Padding for spacing */
+            text-align: center; /* Center align text */
+        }
+
+        .footer-content {
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items */
+        }
+
+        .footer-logo {
+            margin-bottom: 10px; /* Space below the logo */
+        }
+
+        .footer-social {
+            margin-bottom: 10px; /* Space below the social links */
+        }
+
+        .social {
+            list-style: none; /* Remove default list styling */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Use flexbox for social links */
+            justify-content: center; /* Center align the items */
+        }
+
+        .social li {
+            margin: 0 10px; /* Space between social icons */
+        }
+
+        .social img {
+            transition: transform 0.3s; /* Add a transition for hover effect */
+        }
+
+        .social img:hover {
+            transform: scale(1.1); /* Slightly enlarge the icon on hover */
+        }
+
+        .footer-bottom {
+            font-size: 14px; /* Smaller font size for the copyright text */
+        }
+      body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+      }
+      header {
+          background-image: linear-gradient(to right,#d41c1c,#1f0daa);
+          color: #fff;
+          padding: 10px 0;
+          text-align: center;
+      }
+      .logo {
+          font-size: 24px;
+          font-weight: bold;
+      }
+      .menu {
+          list-style: none;
+          padding: 0;
+      }
+      .menu li {
+          display: inline;
+          margin-right: 20px;
+      }
+      .menu a {
+          color: #fff;
+          text-decoration: none;
+      }
+      .contact-info {
+          font-size: 14px;
+          margin-top: 10px;
+      }
+  </style>
+</head>
+<header>
+  <div class="logo">STAR TOUR AND TRAVEL Service</div>
+  <ul class="menu">
+      <li><a href="Minorproject.html">Home</a></li>
+                      <li><a href="about us.html">About Us</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="feedbacl.html">Feedback</a></li>
+                  
+                      <li><a href="complaint.html">complaint box</a></li>
+                      <li><a href="payment.html">Pay Online</a></li>
+                      <li><a href="bookingservice.html">My Bookings</a></li>
+                      
+                  
+                      <li><a href="T&C.html">Terms &amp; Conditions</a></li>
+                      <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="login.html">Login</a></li>
+  <div class="contact-info">
+      <p>Email: info@yourtraveladventures.com</p>
+      <p>Phone: +1 (123) 456-7890</p>
+  </div>
+  <div class="sectionheader paddefault">
+      <div class="headertop">
+          <div class="container">
+              <p>Payment &amp; Cancellation Issues: <a href="tel:7828454800,5462458745">565646,4544454
+              </a></p>
+              <p class="routeinq">Route Inquiry: <a href="tel:6321587459, 5484621547">9664454454, 5421302587</a></p>
+              <div class="agentlogin"><a href="agent.html" target="_blank"> </a></div>
+          </div>
+  </div>
+<body>
+  <li><a href="Minorproject.html"></a></li>
+  <br><a class="SeeMore2" data-toggle="collapse" href="#collapseTwo" style="float: right; color: red;">+ Read More</a>
+   
+    <table class="table table-bordered" style="background: #a7ccc7; border: 2px solid #232323;">
+      <tbody><tr>
+        <td colspan="2" align="center"><h3 style="color: brown; margin-top: 0px; margin-bottom: 0px;">Vehicle Booking Request</h3></td>
+      </tr>
+    <tr>
+    <td><font color="#FF0000">*</font> Arrival Date</td>
+    <!-- <label for="date">Date:</label> -->
+           <td><input type="date" id="date" name="date" required>
+    <!-- <td><input name="Date" type="text" id="datepicker" style="width: 67%;" placeholder="Arrival Date*" onblur="if(this.value == '') { this.value='Your Travel Date';} { this.value = '';} " size="10" required="" class="hasDatepicker">     
+      </td></tr> -->
+      </td></tr>
+    
+    <tr>
+          <td><font color="#FF0000">*</font> Duration</td>
+       
+          <td><select name="Duration" id="Duration" style="width:67%;">
+                    <option value="">No of Days</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31+">31+</option>
+                  </select></td>
+        </tr>
+        <td><font color="#FF0000">*</font> No of passenger</td>
+       
+          <td><select name="Duration" id="Quantity" style="width:67%;">
+                    <option value="">Quantity</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">more than 10</option>
+                    <option value="20">more than 20</option>
+                    <option value="30">more than 30</option>
+                    <option value="40">more than 40</option>
+                    <option value="50">more than 50</option>
+                    <option value="">sorry for inconvenience</option>
+    
+      <tr>
+        <td><font color="#FF0000">*</font> Name :</td>
+        <td><input type="text" name="Name" id="Name" style="width:67%"></td>
+      </tr>
+       <tr>
+        <td><font color="#FF0000">*</font> E-mail :</td>
+        <td><input type="email" name="Email" id="Email" style="width:67%"></td>
+      </tr>
+    
+      <tr>
+        <td><font color="#FF0000">&nbsp;*</font> Phone</td>
+    
+     <td><input name="Phone" style="width:67%" type="text" id="Phone" onkeypress="return isNumber(event);"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><input type="submit" class="btn btn-primary" name="Submit" value="Submit"></td>
+      </tr>
+    </tbody></table>
+
+
+
+     <p></p><br>
+     <div class="text-center"><h3 class="kk2">OUR SERVICES</h3></div>
+     <div class="row">
+     <div class="col-md-4 rentspn">
+      <h4 style="background-color: black;color: #d3d3d3;"spnrent">Quality</h4>
+       <ul class="txtt1">
+         <li>• Well Trained Chauffeurs</li>
+         <li>• Well-maintained Car Fleet</li>
+         <li>• Amenities for Comfort</li>
+       </ul>
+     </div>
+   
+   
+   
+   
+   <div class="col-md-4 rentspn">
+         <h4 style="background-color: black;color: #d3d3d3; class="spnrent">Reliability</h4>
+       <ul class="txtt1">
+         <li>• India's Largest Car Rental Company</li>
+         <li>• Transparent Policies</li>
+         <li>• Secure Payment Process</li>
+       </ul>
+     </div>
+   
+   
+     <div class="col-md-4 rentspn">
+        <h4 style="background-color: black;color: #d3d3d3;" class="spnrent">Convenience</h4>
+       <ul class="txtt1">
+         <li>• Cover Major Cities</li>
+         <li>• Easy Booking Procedure</li>
+         <li>• Modified Vehicles</li>
+       </ul>
+     </div>
+   </div>
+   
+   
+   
+   </div>
+    <div class="clear"> </div>
+   <br>
+   </div>
+   
+   <div class="row">
+     <br>
+     <div class="text-center">
+       
+       <h3 style="background-color: rgb(196, 213, 12);color: #0e0e0e;class="kk">Choose Type of Car Segment</h3></div><br>
+     </div>
+     <div class="col-md-12">
+    <table width="100%" border="0" cellpadding="8" cellspacing="1" bgcolor="#fff" class="fleet-links">
+     <tbody><tr>
+      <td width="25%" align="center" class="selcted"><a href="#sedan-cars"><p>Sedan Cars</p></a></td>
+       <td width="25%" align="center"><a href="#suv-muv"><p>SUV/MUV</p></a></td>
+      
+       <td width="25%" align="center"><a href="#wagon-van"><p>Wagon Van</p></a></td>
+       <td width="25%" align="center"><a href="#coaches"><p>Coaches</p></a></td>
+     </tr>
+   </tbody></table>
+   <div class="clear"></div>
+          </div> 
+   
+   <br><br>
+          <div class="col-md-12" id="economy-cars" style="box-shadow: 0 0 3px 0 #d3d3d3;">
+   
+            <br>
+            <div class="col-md-4">
+         <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+       <!-- Indicators -->
+          <ol class="carousel-indicators">
+         <li data-target="#myCarousel1" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel1" data-slide-to="1" class="active"></li>
+         
+          </ol>
+   
+            <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+   
+            <div class="item">
+             <figure>
+                <img src="IMG-20230924-WA0025.jpg" alt="Rent an Economy Car" class="img-responsive">
+                <figcaption>Toyota Etios / Swift Dzire</figcaption>
+              </figure>
+             
+           
+           </div>
+   
+          <div class="item active">
+               <figure>
+                <img src="IMG-20230924-WA0021.jpg" alt="Rent an Economy Car" class="img-responsive">
+                <figcaption>Toyota Etios / Swift Dzire</figcaption>
+              </figure>  <br>
+         </div>
+       </div>    
+     </div>  
+      
+                <h3 style="background-color: rgb(238, 14, 14);color: #1ee431; class="taj-h2">Toyota Etios / Swift Dzire </h3>
+                   <p class="txtt1">Air Conditioned Car<br>
+                   <b> Traveller Seating Capacity - </b> upto 02 Adults<br>
+                   <b> Luggage Space - </b> 02 Large Suitcase <br>
+                   <b> Speciality -</b> Standard Car</p>
+   
+   <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Toyota Etios / Swift Dzire" data-title="Air Conditioned Car" data-capacity="upto 02 Adults" data-space="02 Large Suitcase" data-speciality="Standard Car" data-resource="images/economy-car1.jpg" fdprocessedid="95e0u"><i class="fa fa-child"></i> Place A Request</button>
+   
+            </div>
+    <div class="col-md-4">        
+                        <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                         <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                         <li data-target="#myCarousel2" data-slide-to="0" class=""></li>
+                         <li data-target="#myCarousel2" data-slide-to="1" class=""></li>
+                        
+                       </ol>
+                       <!-- Wrapper for slides -->
+                       <div class="carousel-inner">
+                         <div class="item next left">
+                           <figure>
+                                <img src="IMG-20230924-WA0021.jpg" alt="Rent an Economy Car" class="img-responsive">
+                                <figcaption>Corolla Car</figcaption>
+                              </figure>              
+                         </div>
+   
+                         <div class="item active left">
+                        <figure>
+                                <img src="IMG-20230924-WA0023.jpg" alt="Rent an Economy Car" class="img-responsive">
+                                <figcaption>Corolla Car</figcaption>
+                              </figure>       
+                         </div>
+                       </div>  
+                     </div>
+                       <h3 style="background-color: pink;color:pink" class="taj-h2">Corolla Car </h3>
+                           <p class="txtt1">Air Conditioned Car<br>
+                           <b> Traveller Seating Capacity - </b> upto 02 Adults<br>
+                           <b> Luggage Space - </b> 02 Large Suitcase <br>
+                           <b> Speciality -</b> Deluxe Car</p>
+   
+                      <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Corolla Car" data-title="Air Conditioned Car" data-capacity="upto 02 Adults" data-space="02 Large Suitcase" data-speciality="Deluxe Car" data-resource="images/maruti-swift-dizire1.jpg" fdprocessedid="dj1sks"><i class="fa fa-child"></i> Place A Request</button>
+                    </div>
+             <div class="col-md-4">                         
+                      <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                         <!-- Indicators -->
+                         <ol class="carousel-indicators">
+                           <li data-target="#myCarousel3" data-slide-to="0" class=""></li>
+                           <li data-target="#myCarousel3" data-slide-to="1" class=""></li>                     
+                         </ol>
+                         <!-- Wrapper for slides -->
+                         <div class="carousel-inner">
+                           <div class="item next left">
+                             <figure>
+                                  <img src="IMG-20230924-WA0025.jpg" alt="Rent an Economy Car" class="img-responsive">
+                                  <figcaption>Mercedes / Audi Car
+                     </figcaption>
+                                </figure>                                                    
+                           </div>
+                           <div class="item active left">
+                          <figure>
+                                  <img src="IMG-20230924-WA0020.jpg" alt="Rent an Economy Car" class="img-responsive">
+                                  <figcaption>Mercedes / Audi Car</figcaption>
+                                </figure> 
+                           </div>
+                                 
+                         </div>  
+                       </div>
+                       <h3 style="background-color: rgb(238, 14, 14);color: #1ee431;class="taj-h2">Mercedes / Audi Car</h3>
+                                     <p class="txtt1">Air Conditioned Car<br>
+                                     <b> Traveller Seating Capacity - </b> upto 02 Adults<br>
+                                     <b> Luggage Space - </b> 02 Large Suitcase <br>
+                                     <b> Speciality -</b>  Luxury Car</p>
+                                <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Mercedes / Audi Car" data-title="Air Conditioned Car" data-capacity="upto 02 Adults" data-space="02 Large Suitcase" data-speciality="Luxury Car" data-resource="images/economy-car3.jpg" fdprocessedid="33deac"><i class="fa fa-child"></i> Place A Request</button>
+                              </div>
+   
+          </div> 
+   
+      <!-- =================== -->                               
+    
+   
+          <div class="col-md-12 div-space" id="suv-muv" style="box-shadow: 0 0 3px 0 #d3d3d3;">
+           
+            <h2 style="background-color:;color: #0b0b0b;"SUV/MUV Cars</h2><br>
+            <div class="col-md-4">
+         <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+       <!-- Indicators -->
+          <ol class="carousel-indicators">
+         <li data-target="#myCarousel4" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel4" data-slide-to="1" class=""></li>
+         
+          </ol>
+   
+            <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+   
+            <div class="item next left">
+             <figure>
+                <img src="IMG-20230924-WA0019.jpg" alt="Rent an SUV/MUV Car" class="img-responsive">
+                <figcaption>Toyota Innova Car</figcaption>
+              </figure>
+             
+           
+           </div>
+   
+          <div class="item active left">
+               <figure>
+                <img src="IMG-20230924-WA0018.jpg" alt="Rent an SUV/MUV Car" class="img-responsive">
+                <figcaption>Toyota Innova Car</figcaption>
+              </figure>  
+         </div>
+     
+       </div>    
+     </div>      
+             <h3 style="background-color: rgb(238, 14, 14);color: #1ee431; class="taj-h2">Toyota Innova Car</h3>
+                   <p class="txtt1">Air Conditioned Car<br>
+                   <b> Traveller Seating Capacity - </b> upto 04 Adults<br>
+                   <b> Luggage Space - </b>  02 Large + 02 Small Suitcase on carrier<br>
+                   <b> Speciality -</b>   Standard Car</p>
+             <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Toyota Innova Car" data-title="Air Conditioned Car" data-capacity="upto 04 Adults" data-space=" 02 Large + 02 Small Suitcase on carrier" data-speciality="Standard Car" data-resource="images/suvmuv-image1.jpg" fdprocessedid="22s0no"><i class="fa fa-child"></i> Place A Request</button>
+   
+            </div>
+    <div class="col-md-4">        
+        <div id="myCarousel5" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+          <ol class="carousel-indicators">
+         <li data-target="#myCarousel5" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel5" data-slide-to="1" class=""></li>
+        
+       </ol>
+       <!-- Wrapper for slides -->
+       <div class="carousel-inner">
+         <div class="item next left">
+           <figure>
+                <img src="IMG-20230924-WA0017.jpg" alt="Rent an SUV/MUV Car" class="img-responsive">
+                <figcaption>Toyota Innova Crysta
+   </figcaption>
+              </figure>              
+         </div>
+   
+         <div class="item active left">
+        <figure>
+                <img src="IMG-20230924-WA0022.jpg" alt="Rent an SUV/MUV Car" class="img-responsive">
+                <figcaption>Toyota Innova Crysta
+   </figcaption>
+              </figure>       
+         </div>
+       </div>
+     </div>
+             
+              <h3 style="background-color: rgb(238, 14, 14);color: #1ee431; "class="taj-h2">Toyota Innova Crysta</h3>
+                   <p class="txtt1">Air Conditioned Car<br>
+                   <b> Traveller Seating Capacity - </b> upto 04 Adults<br>
+                   <b> Luggage Space - </b>  02 Large + 02 Small Suitcase on carrier<br>
+                   <b> Speciality -</b>   Deluxe Car</p>
+               <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Toyota Innova Crysta" data-title="Air Conditioned Car" data-capacity="upto 04 Adults" data-space=" 02 Large + 02 Small Suitcase on carrier" data-speciality="Deluxe Car" data-resource="images/suvmuv-image3.jpg" fdprocessedid="44xqbt"><i class="fa fa-child"></i> Place A Request</button>
+            </div>
+   
+             <div class="col-md-4">
+             
+    <div id="myCarousel6" class="carousel slide" data-ride="carousel">
+       <!-- Indicators -->
+       <ol class="carousel-indicators">
+         <li data-target="#myCarousel6" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel6" data-slide-to="1" class=""></li>
+        
+       </ol>
+   
+       <!-- Wrapper for slides -->
+       <div class="carousel-inner">
+   
+         <div class="item next left">
+           <figure>
+                <img src="IMG-20230924-WA0014.jpg" alt="Rent an SUV/MUV Car" class="img-responsive">
+                <figcaption>Modified Toyota Hiace Commuter</figcaption>
+              </figure>
+             
+           
+         </div>
+   
+         <div class="item active left">
+        <figure>
+                <img src="IMG-20230924-WA0015.jpg" alt="Rent an SUV/MUV Car" class="img-responsive">
+                <figcaption>Modified Toyota Hiace Commuter</figcaption>
+              </figure>            
+         </div>  
+     
+       </div>  
+     </div>
+     <h3 style="background-color: rgb(238, 14, 14);color: #1ee431; class="taj-h2">Modified Toyota Hiace Commuter</h3>
+                   <p class="txtt1">Air Conditioned Van<br>
+                   <b> Traveller Seating Capacity - </b> upto 05 Adults<br>
+                   <b> Luggage Space - </b>   02 Large Suitcase <br>
+                   <b> Speciality -</b>   Luxury Van</p><br>
+               <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Modified Toyota Hiace Commuter" data-title="Air Conditioned Car" data-capacity="upto 05 Adults" data-space="02 Large Suitcase" data-speciality="Luxury Car" data-resource="images/suv-muv-image5.jpg" fdprocessedid="1o5idp"><i class="fa fa-child"></i> Place A Request</button>
+               <br>
+   
+            </div>
+   <br><br>
+          </div>  
+   
+   
+    <!-- =================== -->                               
+    
+   
+          <div class="col-md-12 div-space" id="wagon-van" style="box-shadow: 0 0 3px 0 #d3d3d3;">
+            
+            <h2 style="background-color:;color: #09090a;"Wagon Van</h2><br>
+            <div class="col-md-4">
+         <div id="myCarousel7" class="carousel slide" data-ride="carousel">
+       <!-- Indicators -->
+          <ol class="carousel-indicators">
+         <li data-target="#myCarousel7" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel7" data-slide-to="1" class=""></li>
+        
+          </ol>
+   
+            <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+   
+            <div class="item next left">
+             <figure>
+                <img src="IMG-20230924-WA0013.jpg" alt="Rent a Wagon Van" class="img-responsive">
+                <figcaption>Tempo Traveller</figcaption>
+              </figure>
+             
+           
+           </div>
+   
+          <div class="item active left">
+               <figure>
+                <img src="IMG-20230924-WA0001.jpg" alt="Rent a Wagon Van" class="img-responsive">
+                <figcaption>Tempo Traveller</figcaption>
+              </figure>  
+         </div>
+       </div>    
+     </div>      
+             <h3 style="background-color: rgb(238, 14, 14);color: #1ee431;class="taj-h2">Tempo Traveller</h3>
+                   <p class="txtt1">Air Conditioned Tempo<br>
+                   <b> Traveller Seating Capacity - </b> upto 12 Adults<br>
+                   <b> Luggage Space - </b>   05 Large + 03 Small Suitcase<br>
+                   <b> Speciality -</b>   Standard Van</p>
+             <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Tempo Traveller" data-title="Air Conditioned Tempo" data-capacity="upto 12 Adults" data-space="05 Large + 03 Small Suitcase" data-speciality="Standard Van" data-resource="images/wagon-van5.jpg" fdprocessedid="bclzn7"><i class="fa fa-child"></i> Place A Request</button>
+            </div>
+    <div class="col-md-4">        
+        <div id="myCarousel8" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+          <ol class="carousel-indicators">
+         <li data-target="#myCarousel8" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel8" data-slide-to="1" class="active"></li>
+        
+       </ol>
+       <!-- Wrapper for slides -->
+       <div class="carousel-inner">
+         <div class="item">
+           <figure>
+                <img src="IMG-20230924-WA0009.jpg" alt="Rent a Wagon Van" class="img-responsive">
+                <figcaption>Modified Tempo Traveller</figcaption>
+              </figure>              
+         </div>
+   
+         <div class="item active">
+        <figure>
+                <img src="IMG-20230924-WA0016.jpg" alt="Rent a Wagon Van" class="img-responsive">
+                <figcaption>Modified Tempo Traveller</figcaption>
+              </figure>       
+         </div>        
+       </div> 
+     </div>
+             
+               <h3 style="background-color: rgb(238, 14, 14);color: #1ee431;class="taj-h2">Modified Tempo Traveller</h3>
+                   <p class="txtt1">Air Conditioned Tempo<br>
+                   <b> Traveller Seating Capacity - </b> upto 09 Adults<br>
+                   <b> Luggage Space - </b>   03 Large + 02 Small Suitcase<br>
+                   <b> Speciality -</b>  Deluxe Van / with Window Seats</p>
+              <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Modified Tempo Traveller" data-title="Air Conditioned Tempo" data-capacity="upto 09 Adults" data-space="03 Large + 02 Small Suitcase" data-speciality=" Deluxe Van / with Window Seats" data-resource="images/wagon-van1.jpg" fdprocessedid="judeac"><i class="fa fa-child"></i> Place A Request</button>
+            </div>
+             <div class="col-md-4">
+             
+    <div id="myCarousel9" class="carousel slide" data-ride="carousel">
+       <!-- Indicators -->
+       <ol class="carousel-indicators">
+         <li data-target="#myCarousel9" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel9" data-slide-to="1" class="active"></li>
+        
+       </ol>
+   
+       <!-- Wrapper for slides -->
+       <div class="carousel-inner">
+   
+         <div class="item">
+           <figure>
+                <img src="IMG-20230924-WA0008.jpg" alt="Rent a Wagon Van" class="img-responsive">
+                <figcaption>Toyota Hiace Commuter</figcaption>
+              </figure>
+             
+           
+         </div>
+   
+         <div class="item active">
+        <figure>
+                <img src="IMG-20230924-WA0012.jpg" alt="Rent a Wagon Van" class="img-responsive">
+                <figcaption>Toyota Hiace Commuter</figcaption>
+              </figure>   
+         </div>
+       </div>  
+     </div>
+     <h3 style="background-color: rgb(238, 14, 14);color: #1ee431; class="taj-h2">Toyota Hiace Commuter</h3>
+                   <p class="txtt1">Air Conditioned Tempo<br>
+                   <b> Traveller Seating Capacity - </b> upto 08 Adults<br>
+                   <b> Luggage Space - </b>   02 Large + 02 Small Suitcase<br>
+                   <b> Speciality -</b>  Luxury Van</p>
+                <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Toyota Hiace Commuter" data-title="Air Conditioned Tempo" data-capacity="upto 08 Adults" data-space="02 Large + 02 Small Suitcase" data-speciality=" Deluxe Van / with Window Seats" data-resource="images/wagon-van3.jpg" fdprocessedid="plt0ff"><i class="fa fa-child"></i> Place A Request</button>
+            </div>
+          </div>  
+   <!-- ===================== -->
+    <!-- =================== -->                               
+   
+   
+          <div class="col-md-12 div-space" id="coaches" style="box-shadow: 0 0 3px 0 #d3d3d3;">
+           
+             <h2 style="background-color:;color: #0f0f10;" Coach</h2><br>
+            <div class="col-md-4">
+         <div id="myCarousel10" class="carousel slide" data-ride="carousel">
+       <!-- Indicators -->
+          <ol class="carousel-indicators">
+         <li data-target="#myCarousel10" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel10" data-slide-to="1" class="active"></li>
+         
+          </ol>
+   
+            <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+   
+            <div class="item">
+             <figure>
+                <img src="IMG-20230924-WA0011.jpg" alt="Rent a Coach" class=" img-responsive" data-target="#product_view">
+                <figcaption>Mini Coach</figcaption>
+              </figure>
+             
+           
+           </div>
+   
+          <div class="item active">
+               <figure>
+                <img src="IMG-20230924-WA0007.jpg" alt="Rent a Coach" class="img-responsive">
+                <figcaption>Mini Coach</figcaption>
+              </figure>  
+         </div>
+       </div>    
+     </div>      
+              <h3 style="background-color: rgb(238, 14, 14);color: #1ee431; class="taj-h2">Mini Coach</h3>
+                   <p class="txtt1">Air Conditioned Coach<br>
+                   <b> Traveller Seating Capacity - </b> upto 21 Adults<br>
+                   <b> Luggage Space - </b>   10 Large Suitcase<br>
+                   <b> Speciality -</b>  Standard Coach</p>
+               <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Mini Coach" data-title="Air Conditioned Coach" data-capacity="upto 21 Adults" data-space="10 Large Suitcase" data-speciality="Standard Coach" data-resource="images/coaches-image5.jpg" fdprocessedid="t4252i"><i class="fa fa-child"></i> Place A Request</button>
+            </div>
+    <div class="col-md-4">        
+        <div id="myCarousel11" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+          <ol class="carousel-indicators">
+         <li data-target="#myCarousel11" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel11" data-slide-to="1" class="active"></li>
+        
+       </ol>
+       <!-- Wrapper for slides -->
+       <div class="carousel-inner">
+         <div class="item">
+           <figure>
+                <img src="IMG-20230924-WA0005.jpg" alt="Rent a Coach" class="img-responsive" data-toggle="modal" data-target="#product_view">
+                <figcaption>Large Coach</figcaption>
+              </figure>              
+         </div>
+   
+         <div class="item active">
+        <figure>
+                <img src="IMG-20230924-WA0006.jpg" alt="Rent a Coach" class="img-responsive">
+                <figcaption>Large Coach</figcaption>
+              </figure>       
+         </div>
+       </div>
+     </div>      
+             <h3 style="background-color: rgb(238, 14, 14);color: #1ee431; class="taj-h2">Large Coach</h3>
+                   <p class="txtt1">Air Conditioned Coach<br>
+                   <b> Traveller Seating Capacity - </b> upto 27 Adults<br>
+                   <b> Luggage Space - </b>   15 Large Suitcase<br>
+                   <b> Speciality -</b>  Standard Coach</p>
+             <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Large Coach" data-title="Air Conditioned Coach" data-capacity="upto 27 Adults" data-space="15 Large Suitcase" data-speciality="Standard Coach" data-resource="images/coaches-image3.jpg" fdprocessedid="wcmvp9"><i class="fa fa-child"></i> Place A Request</button>
+            </div>
+   
+             <div class="col-md-4">
+             
+    <div id="myCarousel12" class="carousel slide" data-ride="carousel">
+       <!-- Indicators -->
+       <ol class="carousel-indicators">
+         <li data-target="#myCarousel12" data-slide-to="0" class=""></li>
+         <li data-target="#myCarousel12" data-slide-to="1" class="active"></li>
+        
+       </ol>
+   
+       <!-- Wrapper for slides -->
+       <div class="carousel-inner">
+   
+         <div class="item">
+           <figure>
+                <img src="IMG-20230924-WA0010.jpg" alt="Rent a Coach" class=" img-responsive" data-target="#product_view">
+                <figcaption>Extra Large Coach</figcaption>
+              </figure>  
+         </div>
+         <div class="item active">
+        <figure>
+                <img src="IMG-20230924-WA0003.jpg" alt="Rent a Coach" class="img-responsive ">
+                <figcaption>Extra Large Coach</figcaption>
+              </figure>    
+         </div>
+       </div>  
+     </div>
+      <h3 style="background-color: rgb(238, 14, 14);color: #1ee431;class="taj-h2">Extra Large Coach</h3>
+                   <p class="txtt1">Air Conditioned Coach<br>
+                   <b> Traveller Seating Capacity - </b> upto 36 Adults<br>
+                   <b> Luggage Space - </b>   20 Large Suitcase<br>
+                   <b> Speciality -</b>  Standard Coach</p>
+              
+   <button class="btn btn-danger clickModal" data-toggle="modal" data-target="#product_view" data-name="Extra Large coach" data-title="Air Conditioned Coach" data-capacity="upto 36 Adults" data-space="20 Large Suitcase" data-speciality="Standard Coach" data-resource="images/coaches-image1.jpg" fdprocessedid="9ehm6d"><i class="fa fa-child"></i> Place A Request</button>
+            </div>
+   
+          </div>  
+   </div>
+   </div>
+   <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <!-- <img src="my logo.jpg" alt="Company Logo" width="150"> -->
+        </div>
+        <div class="footer-social">
+            <ul class="social">
+                <li><a href="https://www.youtube.com" target="_blank"><img src="youtube.png" alt="YouTube" width="50"></a></li>
+                <li><a href="https://www.whatsapp.com" target="_blank"><img src="whatsapp.png" alt="WhatsApp" width="50"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="twitter.png" alt="Twitter" width="50"></a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="facebook.png" alt="Facebook" width="50"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="social.png" alt="Instagram" width="50"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2023 Star Tour and Travel Company. All rights reserved.</p>
+    </div>
+</footer>
+
+   
+   
+</body>
+</html>

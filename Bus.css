@@ -1,0 +1,698 @@
+.panel-primary>.panel-heading {
+    color: #96989b;
+    background-color: transparent;
+    border-bottom: 1px solid #f1a122;
+    font-weight: 700;
+    margin: 10px 0;
+    font-size: 18px;
+    position: relative;
+    padding: 0 0 3px;
+}
+
+.inputblock .form-control,
+.form-group .form-control {
+    height: 40px;
+    color: #666;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #efefef;
+}
+
+.inputblock .form-group {
+    width: 33.33%;
+    float: left;
+    padding: 0 10px;
+}
+
+.form-group .form-group .input-group-addon {
+    border: none;
+    border-radius: 0;
+}
+
+.form-group .form-group .form-control,
+.form-control::-moz-placeholder {
+    color: #666;
+}
+
+.form-group .form-group .form-control,
+.form-control::-webkit-input-placeholder {
+    color: #666;
+}
+
+.crtcapcha>img,
+crtcapcha img {
+    width: 200px;
+}
+
+h5 span.label-info {
+    background-color: transparent;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ddd;
+    color: #000;
+    font-size: 14px;
+    border-radius: 0;
+    padding: 10px;
+    margin: 0;
+    white-space: normal;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#ctl00_ContentPlaceHolder1_divCustinfo {
+    font-size: 12px;
+}
+
+#ctl00_ContentPlaceHolder1_divCustinfo table tbody tr {
+    width: 50%;
+    display: inline-block;
+    padding: 5px 0 0;
+}
+
+#ctl00_ContentPlaceHolder1_divCustinfo table tbody tr td {
+    line-height: normal !important;
+}
+
+#ctl00_ContentPlaceHolder1_divCustinfo th.info {
+    background-color: #eee;
+}
+
+.simpleFAQ_list li {
+    width: 24% !important;
+    margin: 10px 1% 0 0 !important;
+}
+
+.tblresponsive {
+    overflow: auto;
+    width: 100%;
+}
+
+.tblrespin {
+    min-width: 991px;
+    padding: 0 0 30px;
+}
+
+.btn-primary {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.btn-default {
+    background-color: #666 !important;
+    border: none;
+    color: #ffffff !important;
+}
+
+.btn-default:hover {
+    background-color: #333 !important;
+    border: none;
+    color: #ffffff !important;
+}
+
+.custinfo {
+    padding: 0;
+}
+
+.journeyinfo {
+    padding: 0 0 0 30px;
+}
+
+/*mybooking tabing css start*/
+
+.tabingmybooking {
+    clear: both;
+    width: 100%;
+    float: left;
+}
+
+.logoutbtn {
+    float: right !important;
+    margin: 15px 0 0 !important;
+}
+
+.logoutbtn input {
+    height: 100%;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks {
+    float: left;
+    width: 23%;
+    position: relative;
+    z-index: 3;
+    border-bottom: none;
+}
+
+.tabingmybooking .tab-content {
+    float: left;
+    width: 77%;
+    padding: 0 0 0 30px;
+    overflow: visible;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks li {
+    clear: both;
+    width: 100%;
+    margin: 0;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks li a {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../image/site/walleticons.png");
+    background-position: 20px -247px;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #231f20;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 22px 10px 18px 70px;
+    line-height: normal;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #4f4c4d;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks li a:hover {
+    border-color: #4f4c4d;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks li.tabmybooking02 a {
+    background-position: 20px -348px;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks li.tabmybooking03 a {
+    background-position: 20px -453px;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks li.tabmybooking04 a {
+    background-position: 20px 9px;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks li.tabmybooking05 a {
+    background-position: 20px -154px;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks li.active a {
+    background-color: #b12126;
+    color: #ffffff !important;
+}
+
+.tabingmybooking .nav-tabs.tabsbooks li.active a:before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    display: block;
+    width: 0;
+    top: 15px;
+    right: -15px;
+    bottom: auto;
+    left: auto;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent #b12126;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.tabsbooksintro {
+    position: relative;
+    width: 100%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 20px;
+    min-height: 500px;
+}
+
+.tabsbooksintro:before {
+    content: "";
+    position: absolute;
+    background-image: url("../image/site/tabshadow.png");
+    background-position: left top;
+    background-repeat: repeat-y;
+    height: 100%;
+    width: 92px;
+    left: -122px;
+    top: 0;
+}
+
+.tabbooktitle {
+    color: #231f20;
+    margin: 0 0 25px;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #231f20;
+}
+
+.tabsbooksintro .nav-tabs {
+    border-bottom: none;
+    margin: 0 0 24px;
+}
+
+.tabsbooksintro .nav-tabs>li>a {
+    font-family: 'Montserrat', sans-serif;
+    color: #231f20;
+    font-size: 20px;
+    font-weight: 500;
+    border: none !important;
+    padding: 0 0 9px;
+    margin: 0 50px 0 0;
+}
+
+.tabsbooksintro .nav-tabs>.active>a,
+.tabsbooksintro .nav-tabs a:hover {
+    color: #b12126 !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid #b12126 !important;
+}
+
+.genderbox {
+    background: #efefef;
+    min-height: 40px;
+}
+
+.gendercol {
+    float: left;
+    padding: 9px 0 0 15px;
+}
+
+.gendercol label {
+    vertical-align: top;
+    margin: 1px 0 0 3px;
+}
+
+.tabsbooksintro table th {
+    font-size: 16px;
+}
+
+.tabsbooksintro .form-group>label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #231f20;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.tabsbooksintro .inputblock .form-control {
+    background-color: #f3f3f3;
+    color: #a09e9f;
+    font-size: 14px;
+    text-transform: capitalize;
+    background-image: url("../image/site/walleticons02.png");
+    background-position: 9px 9px;
+    background-repeat: no-repeat;
+    padding: 0 0 0 40px;
+}
+
+.tabsbooksintro .inputblock .form-control.inputicons02 {
+    background-position: 9px -501px;
+}
+
+.tabsbooksintro .inputblock .form-control.inputicons03 {
+    background-position: 9px -358px;
+}
+
+.tabsbooksintro .inputblock .form-control.inputicons04 {
+    background-position: 9px -810px;
+}
+
+.tabsbooksintro .inputblock .form-control.inputicons05 {
+    background-position: 9px -664px;
+}
+
+.tabsbooksintro .inputblock .form-control.inputicons06 {
+    background-position: 9px -114px;
+}
+
+.tabsbooksintro .inputblock .form-control.inputicons07 {
+    background-position: 9px -239px;
+}
+
+.tabsbooksintro .genderbox {
+    background: transparent;
+}
+
+.inputblock .form-group.capthagroup {
+    width: 66.66%;
+}
+
+.inputblock .form-group.capthabtn {
+    width: 100%;
+}
+
+.tabsbooksintro .btn-default {
+    background-color: #b12126 !important;
+}
+
+.tabsbooksintro .btn-default:hover {
+    color: #fff;
+    background-color: #393129 !important;
+}
+
+.tabsbooksintro .inputblock .capthainput .form-control {
+    background-image: none;
+    padding: 0 0 0 10px;
+}
+
+.genderboxstyle input[type="radio"] {
+    display: none;
+}
+
+.genderboxstyle label {
+    color: #231f20;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 28px;
+    padding: 3px 0 0 32px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.genderboxstyle label:before {
+    border: 1px solid #231f20;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 24px;
+    left: 0;
+    margin-right: 10px;
+    position: absolute;
+    top: 2px;
+    width: 24px;
+}
+
+.genderboxstyle input[type="radio"]:checked+label:before {
+    color: #231f20;
+    content: "\2022";
+    font-size: 56px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.genderbox.genderboxstyle {
+    padding: 5px 0 0;
+}
+
+.upcomingtab {
+    width: 100%;
+    float: left;
+    margin: 3px 0 0;
+}
+
+.upcomingtabox {
+    width: 100%;
+    float: left;
+    margin: 0 0 16px;
+    background-color: #f2f2f2;
+    padding: 18px 5px 20px 18px;
+    border-radius: 10px;
+}
+
+.upcomingcol {
+    width: 18%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #231f20;
+    text-transform: capitalize;
+}
+
+.upcomingcol.upcomingcol02 {
+    width: 15%;
+}
+
+.upcomingcol.upcomingcol03 {
+    width: 20%;
+}
+
+.upcomingcol.upcomingcol04 {
+    width: 25%;
+}
+
+.upcomingcol.upcomingcol05 {
+    width: 12%;
+    text-align: center;
+}
+
+.upcomingcol.upcomingcol06 {
+    width: 10%;
+    text-align: center;
+}
+
+.upcomingcol .printicon {
+    background-image: url("../image/site/walleticons02.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    clear: both;
+    display: inline-block;
+    width: 25px;
+    cursor: pointer;
+}
+
+.upcomingtitle {
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    padding: 0 0 6px;
+}
+
+.upcominginfo {
+    width: 100%;
+    float: left;
+    font-weight: 300;
+}
+
+.tabsbooks .logoutbtn input {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-weight: 600;
+    height: 50px;
+    padding: 0;
+    font-size: 16px;
+}
+
+.upcomingcolsap {
+    display: none;
+}
+
+.mainchart .charts.chartnew {
+    margin: 10px auto 100px !important;
+}
+
+@media only screen and (max-width: 1229px) {
+    .tabingmybooking .nav-tabs.tabsbooks li a {
+        background-position: 15px -185px;
+        font-size: 14px;
+        padding: 18px 10px 16px 52px;
+        background-size: 30px;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li.tabmybooking02 a {
+        background-position: 15px -265px;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li.tabmybooking03 a {
+        background-position: 15px -346px;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li.tabmybooking04 a {
+        background-position: 15px -346px;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li.tabmybooking05 a {
+        background-position: 15px -116px;
+    }
+    .tabsbooks .logoutbtn input {
+        height: 45px;
+        font-size: 14px;
+    }
+    .tabbooktitle {
+        margin: 0 0 15px;
+        font-size: 20px;
+    }
+    .tabsbooksintro .nav-tabs>li>a {
+        font-size: 18px;
+        padding: 0 0 5px;
+        margin: 0 40px 0 0;
+    }
+    .upcomingcol {
+        font-size: 12px;
+    }
+    .tabsbooksintro .nav-tabs {
+        margin: 0 0 18px;
+    }
+    .upcomingtabox {
+        margin: 0 0 16px;
+        padding: 16px 2px 18px 16px;
+        margin: 0 0 10px;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li.logoutbtn {
+        margin: 0 !important;
+        padding: 0 2px 0 0;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks {
+        width: 100%;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li {
+        clear: none;
+        width: 33.3%;
+        margin: 0 !important;
+    }
+    .tabsbooks .logoutbtn input {
+        height: 53px;
+        font-size: 14px;
+        margin: 0 0 0 -1px;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li.active a:before {
+        display: none;
+    }
+    .tabingmybooking .tab-content {
+        width: 100%;
+        padding: 20px 0 0;
+    }
+    .tabsbooksintro {
+        min-height: 10px;
+        padding: 0 0 10px;
+    }
+    .profile.inputblock .blnklbl {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .inputblock .form-group {
+        width: 50%;
+    }
+    .inputblock.inputblock02 .form-group {
+        width: 33.33%;
+    }
+    #ctl00_ContentPlaceHolder1_divCustinfo .col-sm-6 {
+        width: 100%;
+    }
+    .mainchart .charts.chartnew {
+        margin: 10px auto 70px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tabingmybooking .nav-tabs.tabsbooks li a {
+        font-size: 12px;
+    }
+    .tabsbooks .logoutbtn input {
+        height: 50px;
+    }
+    .simpleFAQ_list li {
+        width: 100% !important;
+        margin: 10px 0 0 !important;
+    }
+    .journeyinfo {
+        padding: 0;
+    }
+    #mybkng {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .tabsbooksintro .form-group>label {
+        font-size: 14px !important;
+    }
+    .upcomingcolsap {
+        display: block;
+        clear: both;
+        margin: 0 0 10px;
+    }
+    .upcomingcol {
+        width: 50% !important;
+        margin: 0 0 3px;
+    }
+    .upcomingcol.upcomingcol05,
+    .upcomingcol.upcomingcol06 {
+        text-align: left;
+    }
+    .upcomingtitle {
+        padding: 0 0 3px;
+    }
+    .inputblock .form-group {
+        width: 100% !important;
+        padding: 0;
+    }
+    .lblcapcha {
+        display: none;
+    }
+    #ctl00_ContentPlaceHolder1_divCustinfo .col-sm-6,
+    #ctl00_ContentPlaceHolder1_divCustinfo .col-sm-12 {
+        padding: 0;
+    }
+    .blnklbl {
+        display: none !important;
+    }
+    .tabingmybooking .nav>li>a {
+        font-size: 14px;
+    }
+    .logoutbtn .btn-primary {
+        font-size: 12px;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li {
+        width: 50%;
+    }
+    .tabsbooks .logoutbtn input {
+        margin: 0;
+    }
+    .mainchart .charts.chartnew {
+        margin: 10px auto 60px !important;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .tabsbooksintro .form-group>label {
+        font-size: 12px !important;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li {
+        width: 100%;
+    }
+    .tabingmybooking .nav-tabs.tabsbooks li.logoutbtn {
+        padding: 5px 2px 0 0;
+    }
+    #ctl00_ContentPlaceHolder1_pnlMyBookingData .cols3 {
+        width: 100%;
+    }
+    .crtcapcha>img,
+    crtcapcha img {
+        width: 184px;
+    }
+    .tabingmybooking .nav>li>a {
+        padding: 10px 5px;
+    }
+    .tabsbooksintro .nav-tabs>li>a {
+        margin: 0 15px 0 0;
+        padding: 0 0 3px;
+    }
+    .tabingmybooking {
+        position: relative;
+    }
+    .panel-primary>.panel-heading {
+        font-size: 16px;
+    }
+    .tabbooktitle {
+        font-size: 18px;
+    }
+    .avlmodify .swapcityicon label {
+        margin: 0;
+    }
+    .avlmodify .swapcityicon br {
+        display: none;
+    }
+    .avlmodify .swapcityicon {
+        top: 63px;
+        width: 22px;
+        height: auto;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+    }
+}
