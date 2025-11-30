@@ -79,5 +79,4 @@ This project is licensed under the MIT License. For more details, see the LICENS
 Explore. Book. Travel. 🌟
 Thank you for choosing the Tour and Travel Booking System! Whether you're looking for a summer getaway or an adrenaline-pumping adventure, we’ve got you covered. Bon voyage! ✈️🌄
 
-This decorative description highlights the key features, benefits, and structure of the project, engaging potential users and contributors with clear instructions on how to use and explore the platform. It adds a professional touch while keeping the description easy to follow.
 
